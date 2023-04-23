@@ -21,9 +21,10 @@ function App() {
           { title: '重紫', date: '2023-04-20' }
         ]}
         headerToolbar={{
-          left: 'prev,next', // 设置 "previous", "next", "today" 按钮均显示
+          // prev next today
+          left: '',
           center: 'title',
-          right: '' // 设置日历视图切换按钮
+          right: 'prev,next'
         }}
         eventClick={eventClick}
       />
