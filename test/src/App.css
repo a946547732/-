@@ -1,9 +1,0 @@
-/* @import url('https://bootswatch.com/5/darkly/bootstrap.min.css'); */
-
-.fc-event:hover {
-  cursor: pointer;
-}
-a {
-  color: var(--bs-white);
-  text-decoration: auto;
-}
