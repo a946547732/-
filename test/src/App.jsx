@@ -13,12 +13,12 @@ function App() {
       <FullCalendar
         plugins={[dayGridPlugin]}
         initialView="dayGridMonth"
-        theme='lux'
+        // themeSystem='darkly'
         locale='zh-cn'
         events={[
           { title: '长空之王', start: '2023-04-10', end: '2023-04-15', color: 'red', },
-          { title: '长空之王2', start: '2023-04-11', end: '2023-04-18', color: 'green', },
-          { title: '重紫', date: '2023-04-20' }
+          { title: '长空之王2', start: '2023-04-20', end: '2023-05-18', color: 'green', },
+          { title: '重紫', start: '2023-04-20', color: 'blue', }
         ]}
         headerToolbar={{
           // prev next today
